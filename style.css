@@ -9,7 +9,23 @@ body#landing{
 /*Ids*/
 #landingnav{
     background:white;
-    
+} 
+
+#quote{
+    text-justify: right;
+    color:white;
+    border: none;
+}
+
+#welcome{
+    width: 25%;
+    height: 20%;
+    font-size: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    color:white;
+    font-family: 'Yellowtail', cursive;
+    border: none;
+    padding:15px;
 
 }
 /*Classes*/
