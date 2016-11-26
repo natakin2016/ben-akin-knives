@@ -4,22 +4,34 @@ body{
 body#landing{
   background: url("assests/imgs/riverLANDING.JPG") no-repeat fixed;
   background-size:100%;;
- 
 }
+
+body#home{
+     background: url("assests/imgs/moosecreekHOME.JPG") no-repeat fixed;
+     background-size: 100% 100%;
+     
+}
+body#store{
+    background: url("assests/imgs/sandpointSTORE.JPG") no-repeat fixed;
+     background-size:cover;
+}
+
 /*Ids*/
-#landingnav{
+#nav{
     background:white;
 } 
-
+#home-content{
+    margin-top:22%;
+    color: white;
+    text-align: right;
+}
 #quote{
     text-justify: right;
-    color:white;
+    color:grey;
     border: none;
 }
 
 #welcome{
-    width: 25%;
-    height: 20%;
     font-size: 100%;
     background: rgba(0, 0, 0, 0.5);
     color:white;
@@ -28,7 +40,16 @@ body#landing{
     padding:15px;
 
 }
+#nav,a:link,a:hover,a:active{
+    color:gray;
+
+}
+
 /*Classes*/
+.storeContent{
+    background:rgba(255, 255, 255, 0.7);
+    margin:15px;
+}
 .title{
     font-family: 'Yellowtail', cursive;
     font-size: 650%;
